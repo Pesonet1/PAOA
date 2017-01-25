@@ -1,5 +1,3 @@
-# PAOA
-
 PAOA - Raster-based GIS (KTH - AG2411 Course Project)
 
 Name: Layer superclass
