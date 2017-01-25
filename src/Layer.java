@@ -1,7 +1,7 @@
 /*
 ==============================PAOA - Raster-based GIS==========================
 Name        : Layer superclass
-Authors     : Alexandre Barbusse, Anna Nordlöv, Oliver Stromann and Petteri Pesonen
+Authors     : Alexandre Barbusse, Anna NordlÃ¶v, Oliver Stromann and Petteri Pesonen
 Date:		: 2016-12-21
 Version     : Final
 Description : Stores the raster file's metadata and data. Has some all-purpose methods that are used for all sub-classes
@@ -425,7 +425,7 @@ public class Layer {
 
 	// Return a neighborhood of 3x3 cells centered on the input cell appropriated for
 	// the slope calculation. In the case of some neighborhood-cells falling outside the raster - for input cells on the border or on the edges -
-	// the current pixel’s (center cell) value is applied to these cells.
+	// the current pixelÂ’s (center cell) value is applied to these cells.
 	// The slope, aspect, and hillshade operations use this method.
 	protected ArrayList<Double> returnSlopeNeighborhood(int x, int y) {
 
